@@ -1,0 +1,13 @@
+[
+  {
+    "_dataType" : "demo"
+  },
+  {
+    "_entity" :"MoquiTraining",
+    "trainingId" : "9",
+    "trainingName" : "Data Loading Tutorials",
+    "trainingDate" : "2025-02-03",
+    "trainingPrice" : "699.00",
+    "trainingDuration" : "5"
+  }
+]

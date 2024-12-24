@@ -1,6 +1,6 @@
 <services xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://moqui.org/xsd/service-definition-3.xsd">
 
-    <service verb="create" noun="MoquiTraining" type="entity-auto">
+    <service verb="create" noun="MoquiTraining">
         <in-parameters>
             <auto-parameters entity-name="moquitraining.MoquiTraining" include="pk"/>
             <auto-parameters entity-name="moquitraining.MoquiTraining" include="nonpk"/>
@@ -14,11 +14,11 @@
         <out-parameters>
             <parameter name="trainingId"/>
         </out-parameters>
-<!--        <actions>-->
-<!--&lt;!&ndash;            <date-to-timestamp field="trainingDate" format="MM-dd-yyyy"/>&ndash;&gt;-->
-<!--            <service-call name="create#moquitraining.MoquiTraining" in-map="context" out-map="context"/>-->
-<!--&lt;!&ndash;            <set-field field="trainingId" value="${context.trainingId}"/>&ndash;&gt;-->
-<!--        </actions>-->
+        <actions>
+<!--            <date-to-timestamp field="trainingDate" format="MM-dd-yyyy"/>-->
+            <service-call name="create#moquitraining.MoquiTraining" in-map="context" out-map="context"/>
+<!--            <set-field field="trainingId" value="${context.trainingId}"/>-->
+        </actions>
     </service>
 </services>
         <!--<service verb="create" noun="Person">-->
