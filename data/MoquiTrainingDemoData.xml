@@ -3,9 +3,9 @@
 <!--    <tutorial.Tutorial tutorialId="TestOne" description="Test one description."/>-->
 <!--    <tutorial.Tutorial tutorialId="TestTwo" description="Test two description."/>-->
 
-    <moqui_training.MoquiTraining trainingId="trainingOne" trainingName="Java" trainingDate="2024-12-12"
+    <moquitraining.MoquiTraining trainingId="1" trainingName="Java" trainingDate="2024-12-12"
                                   trainingPrice="12300.00" trainingDuration="3"/>
-    <moqui_training.MoquiTraining trainingId="trainingthree" trainingName="Spring Boot" trainingDate="2024-12-30"
+    <moquitraining.MoquiTraining trainingId="2" trainingName="Spring Boot" trainingDate="2024-12-30"
                                   trainingPrice="1200.00" trainingDuration="7"/>
 </entity-facade-xml>
 

@@ -1,0 +1,6 @@
+moquitraining.MoquiTraining,demo
+trainingId,trainingName,trainingDate,trainingPrice,trainingDuration
+6000,Java Basics,2024-12-01,299.99,30
+5400,Spring Boot Advanced,2024-12-15,399.99,45
+7000,React Essentials,2025-01-10,249.50,25
+2300,Data Science with Python,2025-02-20,599.00,60

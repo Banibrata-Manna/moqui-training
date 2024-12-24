@@ -1,5 +1,5 @@
 <services xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://moqui.org/xsd/service-definition-3.xsd">
-    <service verb="create" noun="MoquiTrainingGroovy">
+    <service verb="create" noun="MoquiTraining">
 
         <in-parameters>
             <auto-parameters entity-name="moquitraining.MoquiTraining" include="all"/>
